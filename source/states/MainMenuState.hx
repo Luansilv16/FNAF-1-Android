@@ -367,12 +367,6 @@ class MainMenuState extends MusicBeatState
 			}
 		}
 
-		
-		menuItems.forEach(function(spr:FlxSprite)
-		{
-			//spr.screenCenter(X);
-		});
-
 	function changeItem(change:Int = 0)
 	{
 		if(change != 0) curColumn = CENTER;
