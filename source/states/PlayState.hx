@@ -3286,6 +3286,1159 @@ class PlayState extends MusicBeatState
 
 	override function beatHit()
 	{
+       if (curSong == 'let-us-in') 
+{
+	switch (curBeat)
+	{
+		case 32:
+		camHUD.flash(FlxColor.WHITE, 1.5);
+		case 96:
+		camHUD.flash(FlxColor.WHITE, 1.5);
+		case 220:
+		defaultCamZoom = 1.01;
+		case 221:
+		defaultCamZoom = 1.02;
+		case 223:
+		defaultCamZoom = 1.03;
+		case 224:
+		defaultCamZoom = 1.04;
+		case 225:
+		defaultCamZoom = 1.05;
+		case 226:
+		defaultCamZoom = 1.06;
+		case 227:
+		defaultCamZoom = 1.07;
+		case 228:
+		defaultCamZoom = 1.08;
+		case 229:
+		defaultCamZoom = 1.09;
+		case 230:
+		defaultCamZoom = 1.1;
+		case 231:
+		defaultCamZoom = 1.11;
+		case 232:
+		defaultCamZoom = 1.12;
+		case 233:
+		defaultCamZoom = 1.13;
+		case 234:
+		defaultCamZoom = 1.14;
+		case 235:
+		defaultCamZoom = 1.15;
+		case 236:
+		defaultCamZoom = 1.16;
+		case 237:
+		defaultCamZoom = 1.17;
+		case 238:
+		defaultCamZoom = 1.18;
+		case 239:
+		defaultCamZoom = 1.19;
+		case 240:
+		defaultCamZoom = 1.2;
+		case 288:
+		defaultCamZoom = 0.9;
+		case 416:
+		camHUD.flash(FlxColor.WHITE, 1.5);
+		case 543:
+		camHUD.flash(FlxColor.WHITE, 1.5);
+		case 542:
+		defaultCamZoom = 1.2;
+ 	}
+}
+
+if (curSong == 'the-slaughter') 
+{
+	switch (curBeat)
+	{
+		case 32:
+		defaultCamZoom = 1.05;
+		case 33:
+		defaultCamZoom = 1.06;
+		case 34:
+		defaultCamZoom = 1.07;
+		case 35:
+		defaultCamZoom = 1.08;
+		case 36:
+		defaultCamZoom = 1.09;
+		case 37:
+		defaultCamZoom = 1.1;
+		case 38:
+		defaultCamZoom = 1.11;
+		case 39:
+		defaultCamZoom = 0.9;
+		case 160:
+		defaultCamZoom = 1.1;
+		case 188:
+		defaultCamZoom = 0.9;
+		case 192:
+		defaultCamZoom = 1.1;
+		case 211:
+		defaultCamZoom = 0.9;
+		case 224:
+		camHUD.flash(FlxColor.PURPLE, 1.5);
+		case 223:
+		defaultCamZoom = 1.15;
+		case 250:
+		defaultCamZoom = 0.9;
+		case 256:
+		camHUD.flash(FlxColor.PURPLE, 1.5);
+		case 255:
+		defaultCamZoom = 1.15;
+		case 284:
+		defaultCamZoom = 0.9;
+		case 328:
+		defaultCamZoom = 1;
+		case 336:
+		defaultCamZoom = 0.9;
+		case 359:
+		defaultCamZoom = 1.1;
+		case 366:
+		defaultCamZoom = 0.9;
+		case 399:
+		defaultCamZoom = 1.1;
+		case 409:
+		defaultCamZoom = 0.9;
+		case 416:
+		defaultCamZoom = 1;
+		case 422:
+		defaultCamZoom = 0.9;
+		case 429:
+		defaultCamZoom = 1.1;
+		case 434:
+		defaultCamZoom = 0.9;
+		case 448:
+		defaultCamZoom = 1;
+		case 454:
+		defaultCamZoom = 0.9;
+		case 461:
+		defaultCamZoom = 1.1;
+		case 466:
+		defaultCamZoom = 0.9;
+		case 480:
+		defaultCamZoom = 1.01;
+		case 481:
+		defaultCamZoom = 1.02;
+		case 482:
+		defaultCamZoom = 1.03;
+		case 483:
+		defaultCamZoom = 1.04;
+		case 484:
+		defaultCamZoom = 1.05;
+		case 485:
+		defaultCamZoom = 1.06;
+		case 486:
+		defaultCamZoom = 1.07;
+		case 477:
+		defaultCamZoom = 1.08;
+		case 488:
+		defaultCamZoom = 1.09;
+		case 489:
+		defaultCamZoom = 1.1;
+		case 490:
+		defaultCamZoom = 1.11;
+		case 491:
+		defaultCamZoom = 1.12;
+		case 492:
+		defaultCamZoom = 1.13;
+		case 493:
+		defaultCamZoom = 1.14;
+		case 494:
+		defaultCamZoom = 1.15;
+		case 495:
+		defaultCamZoom = 1.16;
+		case 496:
+		defaultCamZoom = 1.17;
+		case 497:
+		defaultCamZoom = 1.18;
+		case 498:
+		defaultCamZoom = 1.19;
+		case 499:
+		defaultCamZoom = 1.2;
+		case 541:
+		defaultCamZoom = 0.9;
+ 	}
+}
+
+if (curSong == 'dead-inside') 
+{
+	switch (curBeat)
+	{
+		case 48:
+		camHUD.flash(FlxColor.WHITE, 1.5);
+		case 90:
+		camHUD.flash(FlxColor.WHITE, 1.5);
+		case 112:
+		camHUD.flash(FlxColor.RED, 1.5);
+		case 116:
+		camHUD.flash(FlxColor.YELLOW, 1.5);
+		case 120:
+		camHUD.flash(FlxColor.WHITE, 1.5);
+		case 146:
+		camHUD.flash(FlxColor.WHITE, 1.5);
+		case 152:
+		camHUD.flash(FlxColor.CYAN, 1.5);
+		case 176:
+		camHUD.flash(FlxColor.YELLOW, 1.5);
+		case 200:
+		camHUD.flash(FlxColor.WHITE, 1.5);
+		case 232:
+		camHUD.flash(FlxColor.WHITE, 1.5);
+		case 244:
+		camHUD.flash(FlxColor.WHITE, 1.5);
+		case 264:
+		camHUD.flash(FlxColor.YELLOW, 1.5);
+		case 272:
+		camHUD.flash(FlxColor.CYAN, 1.5);
+		case 280:
+		camHUD.flash(FlxColor.WHITE, 1.5);
+		case 296:
+		camHUD.flash(FlxColor.CYAN, 1.5);
+		case 312:
+		camHUD.flash(FlxColor.WHITE, 1.5);
+		case 328:
+		camHUD.flash(FlxColor.YELLOW, 1.5);
+		case 360:
+		camHUD.flash(FlxColor.YELLOW, 1.5);
+		case 456:
+		camHUD.flash(FlxColor.WHITE, 1.5);
+		case 536:
+		camHUD.flash(FlxColor.WHITE, 1.5);
+		case 632:
+		camHUD.flash(FlxColor.RED, 1.5);
+		case 664:
+		camHUD.flash(FlxColor.RED, 1.5);
+		case 696:
+		camHUD.flash(FlxColor.CYAN, 1.5);
+ 	}
+}
+
+if (curSong == 'terrorizing') 
+{
+	switch (curBeat)
+	{
+		case 16:
+		defaultCamZoom = 1;
+		case 27:
+		defaultCamZoom = 0.8;
+		case 32:
+		defaultCamZoom = 1;
+		case 40:
+		defaultCamZoom = 0.8;
+		case 56:
+		defaultCamZoom = 1;
+		case 59:
+		defaultCamZoom = 0.8;
+		case 72:
+		defaultCamZoom = 1;
+		case 80:
+		defaultCamZoom = 0.8;
+		case 84:
+		defaultCamZoom = 0.85;
+		case 88:
+		defaultCamZoom = 0.8;
+		case 120:
+		defaultCamZoom = 1;
+		case 128:
+		defaultCamZoom = 0.8;
+		case 136:
+		defaultCamZoom = 1;
+		case 144:
+		defaultCamZoom = 0.8;
+		case 152:
+		defaultCamZoom = 0.95;
+		case 153:
+		defaultCamZoom = 1;
+		case 156:
+		defaultCamZoom = 0.85;
+		case 157:
+		defaultCamZoom = 0.8;
+		case 175:
+		defaultCamZoom = 1;
+		case 184:
+		defaultCamZoom = 0.8;
+		case 200:
+		defaultCamZoom = 1;
+		case 208:
+		defaultCamZoom = 0.8;
+		case 216:
+		defaultCamZoom = 1;
+		case 224:
+		defaultCamZoom = 0.8;
+		case 272:
+		defaultCamZoom = 1;
+		case 276:
+		defaultCamZoom = 0.8;
+		case 280:
+		camHUD.flash(FlxColor.WHITE, 1.5);
+		case 312:
+		defaultCamZoom = 1;
+		case 316:
+		defaultCamZoom = 0.8;
+		case 320:
+		defaultCamZoom = 1;
+		case 322:
+		defaultCamZoom = 0.8;
+		case 336:
+		defaultCamZoom = 0.85;
+		case 338:
+		defaultCamZoom = 0.95;
+		case 344:
+		camHUD.flash(FlxColor.WHITE, 1.5);
+		case 345:
+		defaultCamZoom = 0.9;
+ 	}
+}
+
+if (curSong == 'shut-the-door') 
+{
+	switch (curBeat)
+	{
+		case 16:
+		defaultCamZoom = 1;
+		case 48:
+		camHUD.flash(FlxColor.WHITE, 1.5);
+		case 24:
+		defaultCamZoom = 0.9;
+		case 36:
+		defaultCamZoom = 1;
+		case 47:
+		defaultCamZoom = 0.9;
+		case 56:
+		defaultCamZoom = 1;
+		case 60:
+		defaultCamZoom = 0.9;
+		case 64:
+		defaultCamZoom = 1;
+		case 76:
+		defaultCamZoom = 0.9;
+		case 80:
+		defaultCamZoom = 1;
+		case 84:
+		defaultCamZoom = 0.9;
+		case 92:
+		defaultCamZoom = 1;
+		case 96:
+		defaultCamZoom = 0.9;
+		case 100:
+		defaultCamZoom = 1;
+		case 108:
+		defaultCamZoom = 0.9;
+		case 116:
+		defaultCamZoom = 1;
+		case 120:
+		defaultCamZoom = 0.9;
+		case 128:
+		defaultCamZoom = 1;
+		case 136:
+		defaultCamZoom = 0.9;
+		case 144:
+		defaultCamZoom = 1;
+		case 152:
+		defaultCamZoom = 0.9;
+		case 168:
+		defaultCamZoom = 1;
+		case 184:
+		defaultCamZoom = 0.9;
+		case 200:
+		defaultCamZoom = 1;
+		case 216:
+		defaultCamZoom = 0.9;
+		case 242:
+		defaultCamZoom = 1;
+		case 257:
+		defaultCamZoom = 0.9;
+		case 272:
+		defaultCamZoom = 1;
+		case 274:
+		defaultCamZoom = 0.9;
+		case 276:
+		defaultCamZoom = 1;
+		case 278:
+		defaultCamZoom = 0.9;
+		case 288:
+		defaultCamZoom = 1;
+		case 290:
+		defaultCamZoom = 1.1;
+		case 292:
+		defaultCamZoom = 1;
+		case 294:
+		defaultCamZoom = 0.9;
+		case 312:
+		defaultCamZoom = 1;
+		case 320:
+		defaultCamZoom = 0.9;
+		case 328:
+		defaultCamZoom = 1;
+		case 336:
+		defaultCamZoom = 0.9;
+		case 353:
+		defaultCamZoom = 1;
+		case 372:
+		defaultCamZoom = 0.9;
+		case 416:
+		defaultCamZoom = 1;
+		case 430:
+		defaultCamZoom = 0.9;
+		case 434:
+		defaultCamZoom = 1;
+		case 439:
+		defaultCamZoom = 0.9;
+		case 455:
+		defaultCamZoom = 1;
+ 	}
+}
+
+if (curSong == 'midnight-snack') 
+{
+	switch (curBeat)
+	{
+		case 8:
+		camHUD.flash(FlxColor.WHITE, 1.5);
+		case 16:
+		defaultCamZoom = 1;
+		case 20:
+		defaultCamZoom = 0.8;
+		case 24:
+		defaultCamZoom = 1;
+		case 35:
+		defaultCamZoom = 0.8;
+		case 40:
+		defaultCamZoom = 1;
+		case 51:
+		defaultCamZoom = 0.8;
+		case 56:
+		defaultCamZoom = 0.9;
+		case 68:
+		defaultCamZoom = 0.8;
+		case 72:
+		defaultCamZoom = 0.9;
+		case 84:
+		defaultCamZoom = 0.8;
+		case 88:
+		camHUD.flash(FlxColor.WHITE, 1.5);
+		case 96:
+		defaultCamZoom = 1;
+		case 104:
+		defaultCamZoom = 0.8;
+		case 112:
+		defaultCamZoom = 1;
+		case 120:
+		defaultCamZoom = 0.8;
+		case 136:
+		defaultCamZoom = 0.82;
+		case 137:
+		defaultCamZoom = 0.84;
+		case 138:
+		defaultCamZoom = 0.86;
+		case 139:
+		defaultCamZoom = 0.88;
+		case 140:
+		defaultCamZoom = 0.9;
+		case 141:
+		defaultCamZoom = 0.92;
+		case 142:
+		defaultCamZoom = 0.94;
+		case 143:
+		defaultCamZoom = 0.96;
+		case 144:
+		defaultCamZoom = 0.98;
+		case 145:
+		defaultCamZoom = 1;
+		case 146:
+		defaultCamZoom = 1.02;
+		case 147:
+		defaultCamZoom = 1.04;
+		case 148:
+		defaultCamZoom = 0.8;
+ 	}
+}
+
+if (curSong == 'rummager') 
+{
+	switch (curBeat)
+	{
+		case 32:
+		defaultCamZoom = 1;
+		case 36:
+		defaultCamZoom = 0.8;
+		case 40:
+		defaultCamZoom = 1;
+		case 44:
+		defaultCamZoom = 0.8;
+		case 48:
+		defaultCamZoom = 0.9;
+		case 52:
+		defaultCamZoom = 0.8;
+		case 56:
+		defaultCamZoom = 0.9;
+		case 60:
+		defaultCamZoom = 0.8;
+		case 68:
+		defaultCamZoom = 1;
+		case 72:
+		defaultCamZoom = 0.8;
+		case 80:
+		defaultCamZoom = 1;
+		case 147:
+		defaultCamZoom = 1;
+		case 228:
+		defaultCamZoom = 1;
+		case 224:
+		defaultCamZoom = 0.8;
+ 	}
+}
+
+if (curSong == 'the-fazbear') 
+{
+	switch (curBeat)
+	{
+		case 32:
+		defaultCamZoom = 0.9;
+		case 36:
+		defaultCamZoom = 0.8;
+		case 40:
+		defaultCamZoom = 0.9;
+		case 44:
+		defaultCamZoom = 0.8;
+		case 48:
+		defaultCamZoom = 0.9;
+		case 56:
+		defaultCamZoom = 0.8;
+		case 64:
+		defaultCamZoom = 1;
+		case 80:
+		defaultCamZoom = 0.8;
+		case 96:
+		defaultCamZoom = 0.9;
+		case 100:
+		defaultCamZoom = 1;
+		case 104:
+		defaultCamZoom = 1.1;
+		case 108:
+		defaultCamZoom = 1.2;
+		case 116:
+		camHUD.flash(FlxColor.WHITE, 1.5);
+		case 117:
+		defaultCamZoom = 0.8;
+		case 124:
+		defaultCamZoom = 1;
+		case 132:
+		defaultCamZoom = 0.8;
+		case 140:
+		defaultCamZoom = 1;
+		case 148:
+		defaultCamZoom = 0.8;
+		case 152:
+		defaultCamZoom = 0.9;
+		case 156:
+		defaultCamZoom = 0.8;
+		case 160:
+		defaultCamZoom = 0.9;
+		case 164:
+		defaultCamZoom = 0.8;
+		case 168:
+		defaultCamZoom = 0.9;
+		case 172:
+		defaultCamZoom = 0.8;
+		case 176:
+		defaultCamZoom = 0.9;
+		case 180:
+		defaultCamZoom = 0.8;
+		case 212:
+		defaultCamZoom = 1;
+		case 228:
+		defaultCamZoom = 0.8;
+		case 244:
+		defaultCamZoom = 1;
+ 	}
+}
+
+if (curSong == 'inside-the-shell') 
+{
+	switch (curBeat)
+	{
+		case 32:
+		defaultCamZoom = 1;
+		case 40:
+		defaultCamZoom = 0.8;
+		case 48:
+		defaultCamZoom = 1;
+		case 56:
+		defaultCamZoom = 0.8;
+		case 68:
+		camHUD.flash(FlxColor.WHITE, 1.5);
+		case 69:
+		defaultCamZoom = 1;
+		case 76:
+		defaultCamZoom = 0.8;
+		case 84:
+		defaultCamZoom = 1;
+		case 92:
+		defaultCamZoom = 0.8;
+		case 100:
+		defaultCamZoom = 0.9;
+		case 104:
+		defaultCamZoom = 0.8;
+		case 108:
+		defaultCamZoom = 0.9;
+		case 112:
+		defaultCamZoom = 0.8;
+		case 120:
+		defaultCamZoom = 1;
+		case 124:
+		defaultCamZoom = 0.8;
+		case 128:
+		defaultCamZoom = 1;
+		case 132:
+		defaultCamZoom = 0.8;
+		case 140:
+		defaultCamZoom = 1;
+		case 148:
+		defaultCamZoom = 0.8;
+		case 156:
+		defaultCamZoom = 0.9;
+		case 164:
+		defaultCamZoom = 0.8;
+		case 172:
+		defaultCamZoom = 0.9;
+		case 180:
+		defaultCamZoom = 1;
+		case 186:
+		defaultCamZoom = 0.8;
+		case 196:
+		defaultCamZoom = 1;
+		case 202:
+		defaultCamZoom = 0.8;
+		case 212:
+		camHUD.flash(FlxColor.PURPLE, 1.5);
+		case 213:
+		defaultCamZoom = 1;
+		case 216:
+		defaultCamZoom = 0.8;
+		case 220:
+		defaultCamZoom = 1;
+		case 224:
+		defaultCamZoom = 0.8;
+		case 232:
+		defaultCamZoom = 0.9;
+		case 236:
+		defaultCamZoom = 0.8;
+		case 240:
+		defaultCamZoom = 0.9;
+		case 244:
+		defaultCamZoom = 0.8;
+		case 252:
+		defaultCamZoom = 0.9;
+		case 256:
+		defaultCamZoom = 1;
+		case 260:
+		defaultCamZoom = 1.1;
+ 	}
+}
+
+if (curSong == 'broken-inside') 
+{
+	switch (curBeat)
+	{
+		case 1:
+		defaultCamZoom = 1.6;
+		case 20:
+		defaultCamZoom = 0.7;
+		case 48:
+		defaultCamZoom = 1;
+		case 60:
+		defaultCamZoom = 0.7;
+		case 64:
+		defaultCamZoom = 1;
+		case 76:
+		defaultCamZoom = 0.7;
+		case 84:
+		defaultCamZoom = 1;
+		case 92:
+		defaultCamZoom = 0.7;
+		case 100:
+		defaultCamZoom = 1;
+		case 108:
+		defaultCamZoom = 0.7;
+		case 112:
+		defaultCamZoom = 0.9;
+		case 114:
+		defaultCamZoom = 0.7;
+		case 116:
+		defaultCamZoom = 0.9;
+		case 118:
+		defaultCamZoom = 0.7;
+		case 120:
+		defaultCamZoom = 0.9;
+		case 122:
+		defaultCamZoom = 0.7;
+		case 126:
+		defaultCamZoom = 1.1;
+		case 128:
+		defaultCamZoom = 0.7;
+		case 144:
+		defaultCamZoom = 1;
+		case 160:
+		defaultCamZoom = 0.7;
+		case 168:
+		defaultCamZoom = 0.9;
+		case 176:
+		defaultCamZoom = 0.7;
+		case 184:
+		defaultCamZoom = 0.9;
+		case 188:
+		defaultCamZoom = 0.7;
+		case 192:
+		defaultCamZoom = 0.9;
+		case 194:
+		defaultCamZoom = 0.7;
+		case 196:
+		defaultCamZoom = 0.9;
+		case 198:
+		defaultCamZoom = 0.7;
+		case 200:
+		defaultCamZoom = 0.9;
+		case 204:
+		defaultCamZoom = 0.7;
+		case 208:
+		camHUD.flash(FlxColor.WHITE, 1.5);
+		case 209:
+		defaultCamZoom = 1;
+		case 214:
+		defaultCamZoom = 0.7;
+		case 224:
+		defaultCamZoom = 1;
+		case 236:
+		defaultCamZoom = 0.7;
+		case 240:
+		defaultCamZoom = 1;
+		case 252:
+		defaultCamZoom = 0.7;
+		case 272:
+		defaultCamZoom = 1;
+		case 284:
+		defaultCamZoom = 0.7;
+		case 288:
+		defaultCamZoom = 1;
+ 	}
+}
+
+if (curSong == 'pirate-adventure') 
+{
+	switch (curBeat)
+	{
+		case 8:
+		defaultCamZoom = 1;
+		case 16:
+		defaultCamZoom = 0.8;
+		case 56:
+		defaultCamZoom = 1;
+		case 64:
+		defaultCamZoom = 0.8;
+		case 72:
+		defaultCamZoom = 1;
+		case 80:
+		defaultCamZoom = 0.8;
+		case 88:
+		defaultCamZoom = 0.9;
+		case 96:
+		defaultCamZoom = 0.8;
+		case 104:
+		defaultCamZoom = 0.9;
+		case 112:
+		defaultCamZoom = 0.8;
+		case 136:
+		defaultCamZoom = 1;
+		case 140:
+		defaultCamZoom = 0.8;
+		case 144:
+		defaultCamZoom = 1;
+		case 150:
+		defaultCamZoom = 0.8;
+		case 168:
+		defaultCamZoom = 1;
+		case 192:
+		defaultCamZoom = 0.8;
+		case 200:
+		camHUD.flash(FlxColor.WHITE, 1.5);
+		case 201:
+		defaultCamZoom = 1;
+		case 232:
+		defaultCamZoom = 0.8;
+		case 264:
+		defaultCamZoom = 1;
+		case 278:
+		defaultCamZoom = 0.8;
+		case 280:
+		defaultCamZoom = 0.9;
+		case 292:
+		defaultCamZoom = 0.8;
+		case 296:
+		defaultCamZoom = 1;
+		case 308:
+		defaultCamZoom = 0.8;
+ 	}
+}
+
+if (curSong == 'walk-the-plank') 
+{
+	switch (curBeat)
+	{
+		case 8:
+		defaultCamZoom = 1;
+		case 16:
+		defaultCamZoom = 0.8;
+		case 56:
+		defaultCamZoom = 1;
+		case 64:
+		defaultCamZoom = 0.8;
+		case 72:
+		defaultCamZoom = 1;
+		case 80:
+		defaultCamZoom = 0.8;
+		case 88:
+		defaultCamZoom = 0.9;
+		case 96:
+		defaultCamZoom = 0.8;
+		case 104:
+		defaultCamZoom = 0.9;
+		case 112:
+		defaultCamZoom = 0.8;
+		case 136:
+		defaultCamZoom = 1;
+		case 140:
+		defaultCamZoom = 0.8;
+		case 144:
+		defaultCamZoom = 1;
+		case 150:
+		defaultCamZoom = 0.8;
+		case 168:
+		defaultCamZoom = 1;
+		case 192:
+		defaultCamZoom = 0.8;
+		case 201:
+		defaultCamZoom = 1;
+		case 208:
+		defaultCamZoom = 0.8;
+		case 223:
+		defaultCamZoom = 1;
+		case 224:
+		camHUD.flash(FlxColor.WHITE, 1.5);
+		case 232:
+		defaultCamZoom = 1.2;
+		case 240:
+		defaultCamZoom = 1;
+		case 248:
+		defaultCamZoom = 1.2;
+		case 256:
+		defaultCamZoom = 1;
+		case 272:
+		defaultCamZoom = 1.2;
+		case 280:
+		defaultCamZoom = 1;
+		case 288:
+		defaultCamZoom = 1.2;
+		case 296:
+		defaultCamZoom = 1;
+		case 328:
+		camHUD.flash(FlxColor.WHITE, 1.5);
+		case 332:
+		defaultCamZoom = 1.2;
+		case 336:
+		defaultCamZoom = 0.8;
+		case 284:
+		defaultCamZoom = 1;
+		case 400:
+		defaultCamZoom = 0.8;
+		case 404:
+		defaultCamZoom = 1;
+		case 408:
+		defaultCamZoom = 0.8;
+		case 473:
+		defaultCamZoom = 1;
+		case 488:
+		defaultCamZoom = 0.8;
+		case 508:
+		camHUD.flash(FlxColor.WHITE, 1.5);
+ 	}
+}
+
+if (curSong == 'backroom') 
+{
+	switch (curBeat)
+	{
+		case 8:
+		defaultCamZoom = 1;
+		case 16:
+		defaultCamZoom = 0.8;
+		case 56:
+		defaultCamZoom = 1;
+		case 64:
+		defaultCamZoom = 0.8;
+		case 72:
+		defaultCamZoom = 1;
+		case 80:
+		defaultCamZoom = 0.8;
+		case 88:
+		defaultCamZoom = 0.9;
+		case 96:
+		defaultCamZoom = 0.8;
+		case 104:
+		defaultCamZoom = 0.9;
+		case 112:
+		defaultCamZoom = 0.8;
+		case 136:
+		defaultCamZoom = 1;
+		case 140:
+		defaultCamZoom = 0.8;
+		case 144:
+		defaultCamZoom = 1;
+		case 150:
+		defaultCamZoom = 0.8;
+		case 168:
+		defaultCamZoom = 1;
+		case 192:
+		defaultCamZoom = 0.8;
+		case 201:
+		defaultCamZoom = 1;
+		case 232:
+		defaultCamZoom = 0.8;
+		case 264:
+		defaultCamZoom = 1;
+		case 278:
+		defaultCamZoom = 0.8;
+		case 280:
+		defaultCamZoom = 0.9;
+		case 292:
+		defaultCamZoom = 0.8;
+		case 296:
+		defaultCamZoom = 1;
+		case 308:
+		defaultCamZoom = 0.8;
+ 	}
+}
+
+if (curSong == 'lost-at-sea') 
+{
+	switch (curBeat)
+	{
+		case 33:
+		defaultCamZoom = 2;
+		case 48:
+		defaultCamZoom = 2.5;
+		case 60:
+		defaultCamZoom = 2;
+		case 72:
+		defaultCamZoom = 2.5;
+		case 84:
+		defaultCamZoom = 2;
+		case 192:
+		defaultCamZoom = 2.5;
+		case 216:
+		defaultCamZoom = 2;
+		case 240:
+		camHUD.flash(FlxColor.WHITE, 1);
+		case 252:
+		defaultCamZoom = 2.5;
+		case 264:
+		defaultCamZoom = 2;
+		case 276:
+		defaultCamZoom = 2.5;
+		case 294:
+		camHUD.flash(FlxColor.WHITE, 2);
+		case 328:
+		defaultCamZoom = 2;
+		case 336:
+		defaultCamZoom = 2.5;
+		case 344:
+		defaultCamZoom = 2;
+		case 384:
+		defaultCamZoom = 2.5;
+		case 396:
+		defaultCamZoom = 2;
+		case 400:
+		defaultCamZoom = 2.5;
+		case 412:
+		defaultCamZoom = 2;
+		case 416:
+		defaultCamZoom = 2.5;
+		case 428:
+		defaultCamZoom = 2;
+		case 432:
+		defaultCamZoom = 2.5;
+		case 444:
+		defaultCamZoom = 2;
+		case 512:
+		defaultCamZoom = 2.5;
+		case 568:
+		defaultCamZoom = 2;
+		case 650:
+		defaultCamZoom = 3;
+		case 664:
+		defaultCamZoom = 0.9;
+		case 728:
+		defaultCamZoom = 3;
+		case 738:
+		defaultCamZoom = 2.5;
+		case 736:
+		defaultCamZoom = 2;
+		case 744:
+		defaultCamZoom = 2.5;
+		case 752:
+		defaultCamZoom = 2;
+		case 760:
+		defaultCamZoom = 2.5;
+		case 772:
+		defaultCamZoom = 2;
+		case 776:
+		defaultCamZoom = 2.5;
+		case 788:
+		defaultCamZoom = 2;
+		case 792:
+		defaultCamZoom = 2.5;
+		case 824:
+		defaultCamZoom = 2;
+		case 856:
+		defaultCamZoom = 2.5;
+		case 888:
+		defaultCamZoom = 2;
+ 	}
+}
+
+if (curSong == 'the-happiest-day') 
+{
+	switch (curBeat)
+	{
+		case 31:
+		defaultCamZoom = 1;
+		case 32:
+		camHUD.flash(FlxColor.WHITE, 1);
+		case 40:
+		defaultCamZoom = 0.8;
+		case 63:
+		defaultCamZoom = 1.1;
+		case 64:
+		camHUD.flash(FlxColor.WHITE, 1);
+		case 94:
+		camHUD.flash(FlxColor.WHITE, 0.5);
+		case 128:
+		defaultCamZoom = 1;
+		case 136:
+		defaultCamZoom = 1.1;
+		case 168:
+		camHUD.flash(FlxColor.WHITE, 0.8);
+		case 200:
+		camHUD.flash(FlxColor.WHITE, 0.8);
+		case 264:
+		defaultCamZoom = 1.2;
+		case 268:
+		defaultCamZoom = 1.1;
+		case 372:
+		camHUD.flash(FlxColor.WHITE, 1);
+		case 552:
+		camHUD.flash(FlxColor.WHITE, 1);
+		case 652:
+		defaultCamZoom = 0.8;
+		case 656:
+		defaultCamZoom = 1;
+		case 664:
+		defaultCamZoom = 0.8;
+		case 728:
+		defaultCamZoom = 1;
+		case 759:
+		defaultCamZoom = 1.1;
+		case 760:
+		camHUD.flash(FlxColor.WHITE, 0.5);
+		case 768:
+		camHUD.flash(FlxColor.WHITE, 0.5);
+		case 776:
+		camHUD.flash(FlxColor.WHITE, 0.5);
+		case 784:
+		camHUD.flash(FlxColor.WHITE, 0.5);
+		case 792:
+		camHUD.flash(FlxColor.WHITE, 0.5);
+		case 793:
+		defaultCamZoom = 0.8;
+		case 824:
+		defaultCamZoom = 1;
+		case 840:
+		defaultCamZoom = 0.8;
+		case 872:
+		defaultCamZoom = 1;
+		case 888:
+		defaultCamZoom = 0.8;
+		case 936:
+		defaultCamZoom = 1;
+		case 968:
+		defaultCamZoom = 0.8;
+		case 1000:
+		defaultCamZoom = 1;
+		case 1004:
+		defaultCamZoom = 1.1;
+		case 1008:
+		camHUD.flash(FlxColor.WHITE, 1.5);
+ 	}
+}
+
+if (curSong == 'power-outage') 
+{
+	switch (curBeat)
+	{
+		case 2:
+		defaultCamZoom = 0.8;
+		case 4:
+		defaultCamZoom = 0.8;
+		case 6:
+		defaultCamZoom = 0.8;
+		case 8:
+		defaultCamZoom = 0.8;
+		case 16:
+		defaultCamZoom = 0.8;
+		case 56:
+		defaultCamZoom = 1;
+		case 64:
+		defaultCamZoom = 0.8;
+		case 72:
+		defaultCamZoom = 1;
+		case 80:
+		defaultCamZoom = 0.8;
+		case 88:
+		defaultCamZoom = 0.9;
+		case 96:
+		defaultCamZoom = 0.8;
+		case 104:
+		defaultCamZoom = 0.9;
+		case 112:
+		defaultCamZoom = 0.8;
+		case 136:
+		defaultCamZoom = 1;
+		case 140:
+		defaultCamZoom = 0.8;
+		case 144:
+		defaultCamZoom = 1;
+		case 150:
+		defaultCamZoom = 0.8;
+		case 168:
+		defaultCamZoom = 1;
+		case 192:
+		defaultCamZoom = 0.8;
+		case 201:
+		defaultCamZoom = 1;
+		case 232:
+		defaultCamZoom = 0.8;
+		case 264:
+		defaultCamZoom = 1;
+		case 278:
+		defaultCamZoom = 0.8;
+		case 280:
+		defaultCamZoom = 0.9;
+		case 292:
+		defaultCamZoom = 0.8;
+		case 296:
+		defaultCamZoom = 1;
+		case 308:
+		defaultCamZoom = 0.8;
+ 	}
+			
 		if(lastBeatHit >= curBeat) {
 			//trace('BEAT HIT: ' + curBeat + ', LAST HIT: ' + lastBeatHit);
 			return;
