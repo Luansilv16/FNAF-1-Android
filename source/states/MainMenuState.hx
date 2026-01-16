@@ -243,8 +243,6 @@ class MainMenuState extends MusicBeatState
 					case CENTER:
 						selectedItem = menuItems.members[curSelected];
 				}
-				else
-				{
 					var dist:Float = -1;
 					var distItem:Int = -1;
 					for (i in 0...optionShit.length)
