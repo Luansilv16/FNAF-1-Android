@@ -276,16 +276,6 @@ class MainMenuState extends MusicBeatState
 				if(timeNotMoving > 2) FlxG.mouse.visible = false;
 			}
 
-			switch(curColumn)
-			{
-				case CENTER:
-					if(controls.UI_LEFT_P && leftOption != null)
-					{
-						curColumn = LEFT;
-						changeItem();
-					}
-			}
-
 			if (controls.BACK)
 			{
 				selectedSomethin = true;
