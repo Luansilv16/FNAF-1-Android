@@ -89,6 +89,26 @@ class MainMenuState extends MusicBeatState
 			//item.screenCenter(X);
 		}
 
+		char1 = new Character(0, 0, 'freddymenu', true);
+		char1.setGraphicSize(Std.int(char1.width * 1));
+		add(char1);
+		char1.visible = false;
+
+		char2 = new Character(0, 0, 'bonniemenu', true);
+		char2.setGraphicSize(Std.int(char2.width * 1));
+		add(char2);
+		char2.visible = false;
+		
+		char3 = new Character(0, 0, 'chicamenu', true);
+		char3.setGraphicSize(Std.int(char3.width * 1));
+		add(char3);
+		char3.visible = false;
+
+		char4 = new Character(0, 0, 'foxymenu', true);
+		char4.setGraphicSize(Std.int(char4.width * 1));
+		add(char4);
+		char4.visible = false;
+
 		var psychVer:FlxText = new FlxText(12, FlxG.height - 44, 0, "Psych Engine v" + psychEngineVersion, 12);
 		psychVer.scrollFactor.set();
 		psychVer.setFormat(Paths.font("FNAF.ttf"), 16, FlxColor.WHITE, LEFT, FlxTextBorderStyle.OUTLINE, FlxColor.BLACK);
@@ -136,26 +156,6 @@ class MainMenuState extends MusicBeatState
 		menuItem.scrollFactor.set();
 		menuItems.add(menuItem);
 		return menuItem;
-
-		char1 = new Character(0, 0, 'freddymenu', true);
-		char1.setGraphicSize(Std.int(char1.width * 1));
-		add(char1);
-		char1.visible = false;
-
-		char2 = new Character(0, 0, 'bonniemenu', true);
-		char2.setGraphicSize(Std.int(char2.width * 1));
-		add(char2);
-		char2.visible = false;
-		
-		char3 = new Character(0, 0, 'chicamenu', true);
-		char3.setGraphicSize(Std.int(char3.width * 1));
-		add(char3);
-		char3.visible = false;
-
-		char4 = new Character(0, 0, 'foxymenu', true);
-		char4.setGraphicSize(Std.int(char4.width * 1));
-		add(char4);
-		char4.visible = false;
 	}
 
 	var selectedSomethin:Bool = false;
