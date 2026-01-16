@@ -1,6 +1,9 @@
 package states;
 
+import flixel.FlxG
+import flixel.FlxSprite;
 import flixel.FlxObject;
+import flixel.graphics.frames.FlxAtlasFrames;
 import flixel.effects.FlxFlicker;
 import lime.app.Application;
 import states.editors.MasterEditorMenu;
